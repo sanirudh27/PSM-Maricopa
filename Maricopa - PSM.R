@@ -3,11 +3,7 @@
 library(xlsx)
 library(plyr)
 
-#Path where the Data is stored.
-DataDirectory <- "/Volumes/CCWB/Title_IV_E_Waiver_DCS/Data/Raw Data"
-#Path when using CCWB system
-DataDirectory2 <- "Z:/Title_IV_E_Waiver_DCS/Data/Raw Data" 
-setwd(DataDirectory2)
+
 
 #Reading the csv data
 Base_Pop <- read.csv("ASU AFCARS Base-Pop.csv", header = T)
