@@ -1,8 +1,5 @@
 #R - File for Propensity Score Matching and finding the most probable matches
 
-library(xlsx)
-library(plyr)
-
 
 
 #Reading the csv data
